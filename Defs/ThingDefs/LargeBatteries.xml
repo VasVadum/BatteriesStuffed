@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
   <ThingDef Name="BuildingBaseLarge" Abstract="True">
     <category>Building</category>
@@ -19,9 +19,6 @@
     <tickerType>Normal</tickerType>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <size>(2,3)</size>
-    <building>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
-    </building>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
@@ -218,4 +215,4 @@
     </comps>
   </ThingDef>
 
-</Buildings>
+</Defs>
